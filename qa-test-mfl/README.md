@@ -5,7 +5,7 @@
  * 3 tests hitting against http://automationpractice.com/index.php
  
 **What is already supplied to me?**
------
+-----gitadd--
 * Java
 * JUnit
 * Maven
