@@ -1,0 +1,5 @@
+INDEX VERSION 1.130+C:\Career\MFL\.metadata\.plugins\org.eclipse.jdt.core
+3527527214.index
+1204375214.index
+622288353.index
+1965302648.index

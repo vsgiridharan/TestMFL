@@ -1,0 +1,23 @@
+2018-07-30 19:46:45,197 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-07-30 19:52:41,014 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-30 19:52:44,261 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hellofresh.challenge:web-test:1.0-SNAPSHOT @ C:\Career\MFL\qa-test-mfl\pom.xml.
+2018-07-30 19:52:45,812 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:52:45,812 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Career\MFL\qa-test-mfl\src\main\resources
+2018-07-30 19:52:45,815 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:52:45,821 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 19:52:45,823 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /qa-test-mfl/src/main/java
+2018-07-30 19:52:45,836 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /qa-test-mfl/src/test/java
+2018-07-30 19:52:45,836 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /qa-test-mfl/src/test/resources
+2018-07-30 19:52:47,669 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2018-07-30 19:52:47,975 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:52:47,976 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Career\MFL\qa-test-mfl\src\main\resources
+2018-07-30 19:52:47,976 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:52:47,979 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 19:55:02,363 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:55:02,367 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Career\MFL\qa-test-mfl\src\main\resources
+2018-07-30 19:55:02,368 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:55:02,369 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-30 19:55:28,137 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:55:28,142 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Career\MFL\qa-test-mfl\src\main\resources
+2018-07-30 19:55:28,147 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-30 19:55:28,152 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
