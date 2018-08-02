@@ -68,6 +68,7 @@ public class WebTest {
         assertTrue(driver.findElement(By.className("info-account")).getText().contains("Welcome to your account."));
         assertTrue(driver.findElement(By.className("logout")).isDisplayed());
         assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
+        driver.close();
     }
 
 //    @Test
