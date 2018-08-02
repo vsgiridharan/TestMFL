@@ -70,21 +70,21 @@ public class WebTest {
         assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
     }
 
-    @Test
-    public void logInTest() {
-        String fullName = "Joe Black";
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("login"))).click();
-        driver.findElement(By.id("email")).sendKeys(existingUserEmail);
-        driver.findElement(By.id("passwd")).sendKeys(existingUserPassword);
-        driver.findElement(By.id("SubmitLogin")).click();
-        WebElement heading = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
-
-        assertEquals("MY ACCOUNT", heading.getText());
-        assertEquals(fullName, driver.findElement(By.className("account")).getText());
-        assertTrue(driver.findElement(By.className("info-account")).getText().contains("Welcome to your account."));
-        assertTrue(driver.findElement(By.className("logout")).isDisplayed());
-        assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
-    }
+//    @Test
+//    public void logInTest() {
+//        String fullName = "Joe Black";
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("login"))).click();
+//        driver.findElement(By.id("email")).sendKeys(existingUserEmail);
+//        driver.findElement(By.id("passwd")).sendKeys(existingUserPassword);
+//        driver.findElement(By.id("SubmitLogin")).click();
+//        WebElement heading = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
+//
+//        assertEquals("MY ACCOUNT", heading.getText());
+//        assertEquals(fullName, driver.findElement(By.className("account")).getText());
+//        assertTrue(driver.findElement(By.className("info-account")).getText().contains("Welcome to your account."));
+//        assertTrue(driver.findElement(By.className("logout")).isDisplayed());
+//        assertTrue(driver.getCurrentUrl().contains("controller=my-account"));
+//    }
 
     @Test
     public void checkoutTest() {
